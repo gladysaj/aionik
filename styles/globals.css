@@ -16,5 +16,36 @@ a {
 }
 
 .navbar {
+  align-items: center;
+  color: #5349db;
+  display: flex;
+  justify-content: space-around;
+  padding: 36px 0px;
+  width: 100%;
+}
+
+.search-bar {
   width: 352px;
+}
+
+.icons {
+  display: flex;
+}
+
+.icons__item {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-right: 29px;
+}
+
+.icons__item:last-child {
+  margin-right: 0;
+}
+
+.icons__item p {
+  margin: 0;
+  font-size: 11px;
+  font-weight: 300;
 }
